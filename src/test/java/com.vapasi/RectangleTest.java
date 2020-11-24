@@ -7,7 +7,8 @@ public class RectangleTest {
     @Test
     public void shouldReturnArea(){
         Rectangle rectangle=new Rectangle();
-        int actual=rectangle.caculateArea(2,4);
+        int actual=rectangle.calculateArea(2,4);
         Assertions.assertEquals(8,actual);
     }
+    
 }
