@@ -23,7 +23,5 @@ public class RectangleTest {
     public void shouldReturnPerimeterOfRectangle() {
         int actual = shape.calculatePerimeter();
         Assertions.assertEquals(12,actual);
-
     }
-
 }

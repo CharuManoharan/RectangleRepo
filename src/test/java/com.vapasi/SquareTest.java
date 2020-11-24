@@ -5,6 +5,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 public class SquareTest {
+
     public static Shape shape;
 
     @BeforeAll
@@ -23,6 +24,4 @@ public class SquareTest {
         int actual = shape.calculatePerimeter();
         Assertions.assertEquals(16, actual);
     }
-
-
 }
