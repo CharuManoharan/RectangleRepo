@@ -19,7 +19,7 @@ public class RectangleTest {
     public void shouldReturnPerimeterOfRectangle() {
         shape = new Rectangle(2,4);
         double actual = shape.calculatePerimeter();
-        Assertions.assertEquals(12,actual);
+        Assertions.assertEquals(12, actual);
 
     }
 

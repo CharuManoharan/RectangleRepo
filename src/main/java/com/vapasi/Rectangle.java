@@ -10,13 +10,11 @@ public class Rectangle implements Shape {
         this.breadth = breadth;
     }
 
-    public static Rectangle createSquare(int length){
-
+    public static Rectangle createSquare(int length) {
         return new Rectangle(length, length);
     }
 
     public double calculateArea() {
-
         return length * breadth;
     }
 

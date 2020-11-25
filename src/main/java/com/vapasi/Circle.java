@@ -1,6 +1,7 @@
 package com.vapasi;
 
 public class Circle implements Shape {
+
     private int radius;
 
     public Circle(int radius) {
