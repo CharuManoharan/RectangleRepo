@@ -1,6 +1,6 @@
 package com.vapasi;
 
-public class Rectangle extends Shape {
+public class Rectangle implements Shape {
 
     private int length;
     private int breadth;
@@ -10,11 +10,17 @@ public class Rectangle extends Shape {
         this.breadth = breadth;
     }
 
-    public int calculateArea() {
+    public static Rectangle createSquare(int length){
+
+        return new Rectangle(length, length);
+    }
+
+    public double calculateArea() {
+
         return length * breadth;
     }
 
-    public int calculatePerimeter() {
+    public double calculatePerimeter() {
         return 2 * ( length + breadth );
     }
 }

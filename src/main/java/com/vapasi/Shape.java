@@ -1,7 +1,8 @@
 package com.vapasi;
 
-public abstract class Shape {
-    
-    public abstract int calculateArea();
-    public abstract int calculatePerimeter();
+
+interface Shape {
+    public double calculateArea();
+    public double calculatePerimeter();
+
 }
